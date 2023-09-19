@@ -36,7 +36,7 @@ def box_office_data():
     # Print `"The Matrix" in remaining_50_list`. It should print out `False`.
     # NOTE: Make sure to double check the list you are removing from!
     remaining_50_list.remove("The Matrix") 
-    print("The Matrix" not in remaining_50_list)
+    print("The Matrix" in remaining_50_list)
 
     # We're down to 49 movies in `remaining_50_list`.
     # 1.3 TODO: Let's add a movie to the end of the list called "Anywhere But Here".
